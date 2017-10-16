@@ -7,6 +7,6 @@ fi
 # clear dir contents b4 code deploy extract...
 rm -fR /var/www/html/harlibuat/*
 mkdir -p /var/www/html/harlibuat
-rm -fR /var/www/html/admin/*
-mkdir -p /var/www/html/admin
+rm -fR /var/www/html/adminuat/*
+mkdir -p /var/www/html/adminuat
 
