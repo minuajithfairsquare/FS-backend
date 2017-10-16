@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: harlibapi/
-    destination: /var/www/html/harlibapiuat
+    destination: /var/www/html/harlibuat
   - source: admin/
     destination: /var/www/html/adminuat
 
