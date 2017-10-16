@@ -1,6 +1,6 @@
 #!/bin/bash
 # Set ownership for all folders
-chown -R www-data:www-data /var/www/html/harlibapiuat
+chown -R www-data:www-data /var/www/html/harlibuat
 chown -R www-data:www-data /var/www/html/adminuat
 # set files to 644 [except *.pl *.cgi *.sh]
 find /var/www/html/ -type f -not -name ".pl" -not -name ".cgi" -not -name "*.sh" -print0 | xargs -0 chmod 0644
